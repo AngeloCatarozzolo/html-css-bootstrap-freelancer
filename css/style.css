@@ -1,0 +1,168 @@
+.menta{
+    background-color: #17ca9e;
+}
+
+.white{
+    color: white;
+}
+.description>h3{
+    font-size: 20px;
+}
+
+.bigchar{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.mediumchar{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.item{
+    height: 50px;
+   
+}
+
+.sezione{
+    font-size: 23px;
+}
+
+.blu-elef{
+    background-color:#384f78;
+}
+
+.white>p>span{
+    color: #17ca9e;
+}
+
+.bscuro{
+    background-color: #2e3f5e;
+}
+
+.fa-copyright{
+    font-size: 25px;
+}
+
+.bradius{
+    border-radius: 5px;
+}
+
+.sito{
+    border: 1px solid white;
+    margin-left: 5px;
+    border-radius: 100%;
+    padding: 3px;
+    width: 30px;
+}
+.navbar-light .navbar-toggler-icon{
+    filter: invert(1);
+}
+.navbar-light .navbar-toggler{
+    border-color: white;
+}
+.navbar-light .navbar-brand{
+    color: white;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.form-control{
+    border:0;
+    border-bottom:1px solid rgb(94, 92, 92);
+    border-radius: 0;
+    padding: 0;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+.form-control::placeholder{
+    color: rgb(90, 89, 89);
+    font-weight: 600;
+}
+
+.form-label{
+    font-size: 30px;
+    color: rgb(90, 89, 89);
+    font-weight: 600;
+}
+
+.btn-send{
+    color: #fff;
+    background-color: #17ca9e;
+    border-color: #198754;
+    padding: 11 25px;
+    font-size: 15px;
+}
+
+.btn-download{
+    color: #fff;
+    background-color: #17ca9e;
+    border-color: #fff;
+    font-size: 15px;
+    font-size: 14px;
+    width: 180px;
+}
+
+.fa-download{
+    margin-right: 2px;
+}
+
+.item-stella{
+    position: relative;
+}
+.fa-star{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 30px;
+}
+
+.item-linea{
+    position: relative;
+}
+
+.item-linea>hr{
+   position: absolute;
+   height: 5px;
+   color: white;
+   width: 100%;
+   opacity: 1;
+   border-radius: 5px;
+   top: 5px;
+}
+
+.item-linea-nera{
+    position: relative;
+}
+
+.item-linea-nera>hr{
+   position: absolute;
+   height: 5px;
+   color: rgb(0, 0, 0);
+   width: 100%;
+   opacity: 1;
+   border-radius: 5px;
+   top: 5px;
+
+}
+
+
+
+/* ------------------------------------ */
+
+@media screen and (max-width: 768px){
+    .bigchar{
+        font-size: 30px;
+    }
+    .mediumchar{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 575px){
+    .description>h3{
+        font-size: 13px;
+    }
+}
